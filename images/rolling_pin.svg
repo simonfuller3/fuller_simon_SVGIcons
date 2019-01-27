@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Rolling_Pin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 380.2 71.8" style="enable-background:new 0 0 380.2 71.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFF4;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#C69C6D;stroke:#000000;stroke-miterlimit:10;}
+	.opacity{ opacity: 0.5;}
+	</style>
+
+<defs>
+	<script>
+		(() => {
+		let iconOne = document.querySelector("#Rolling_Pin");
+
+		function logThisIconOne() {
+			console.log(this.id);
+		}
+
+		iconOne.addEventListener("click", logThisIconOne);
+
+		document.querySelector("#Rolling_Pin").addEventListener("click", opacity);
+
+		function opacity() {
+		document.getElementById("Rolling_Pin").classList.add("opacity");
+		}
+
+		})();
+	</script>
+</defs>
+
+
+<path id="henalde_L" class="st0" d="M63.5,65.5c0,0-60.5,1.7-62.3-19.6s0-14.5,0-14.5s0.9-19.6,62.3-19.6V65.5z"/>
+<rect id="roller" x="63.5" y="0.5" class="st1" width="238.8" height="70.8"/>
+<path id="handle_r" class="st0" d="M302.3,14.1v49.5c0,0,63.1,0.8,71.6-7.3c8.5-8.1,5.1-31.1,5.1-31.1S383.3,10.7,302.3,14.1z"/>
+</svg>

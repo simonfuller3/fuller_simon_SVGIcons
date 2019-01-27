@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="meat_fork" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150.3 113.4" style="enable-background:new 0 0 150.3 113.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B3B3B3;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#1A1A1A;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.opacity{ opacity: 0.7;}
+	</style>
+
+<defs>
+	<script>
+		(() => {
+		let iconOne = document.querySelector("#meat_fork");
+
+		function logThisIconOne() {
+			console.log(this.id);
+		}
+
+		iconOne.addEventListener("click", logThisIconOne);
+
+		document.querySelector("#meat_fork").addEventListener("click", opacity);
+
+		function opacity() {
+		document.getElementById("meat_fork").classList.add("opacity");
+		}
+
+		})();
+	</script>
+</defs>
+
+
+<path id="fork" class="st0" d="M140.6,112.9c0,0,15.3-2,6.4-15.1L99.7,66.2c0,0-18.9-10.2-14-18.7L6.6,0.4c0,0,77.1,54,70.7,60.9
+	c-6.4,6.9-76.9-52-76.9-52l64.2,64.4c0,0,6.2-13.8,30.7,8L140.6,112.9z"/>
+<path id="handle_2_" class="st1" d="M101.4,69l-7.2,9.7l47,32.8c0,0,11.8-1.8,5-12C146.2,99.5,128.7,87.2,101.4,69z"/>
+<circle id="hole3" class="st2" cx="109.7" cy="81.4" r="2.2"/>
+<circle id="hole2" class="st2" cx="124.4" cy="91.2" r="2.5"/>
+<circle id="hole1" class="st2" cx="140.6" cy="102.7" r="3.2"/>
+</svg>

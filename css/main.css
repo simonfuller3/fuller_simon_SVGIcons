@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*CSS DOC*/
+
+.hidden
+{
+	display: none;
+}
+
+
+#siteContainer
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#mainNav
+{
+	height: 60px;
+	background: #004c54;
+	font-family: Arial;
+
+}
+
+#mainNav ul 
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a 
+{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 40px;
+	margin-top: 20px;
+	padding: 10px;
+	transition: all .5s ease;
+	border-radius: 10px;
+}
+
+
+#utensIcons {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 50px;
+	color: #efefef;
+}
+
+
+
+#iconContainer
+{
+	width: 960px;
+	height: auto;
+	background-color: #d2c58c;
+	margin: 0 auto;
+}
+
+.icons
+{
+	margin-top: 15px;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-left: 50px;
+	width: 200px;
+	height: 200px;
+}
+
+
+
+
+

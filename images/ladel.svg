@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ladel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 177 158.4" style="enable-background:new 0 0 177 158.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B53327;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#591E0C;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.opacity{ opacity: 0.5;}
+	</style>
+
+<defs>
+	<script>
+		(() => {
+		let iconOne = document.querySelector("#Ladel");
+
+		function logThisIconOne() {
+			console.log(this.id);
+		}
+
+		iconOne.addEventListener("click", logThisIconOne);
+
+		document.querySelector("#Ladel").addEventListener("click", opacity);
+
+		function opacity() {
+		document.getElementById("Ladel").classList.add("opacity");
+		}
+
+		})();
+	</script>
+</defs>
+
+
+<path id="body" class="st0" d="M0.6,114.7c0,0,31.3-9.1,63.1,0c0,0,4,5.3,7.8-2S74.2-9.1,173.1,1.1c0,0,8.4,6.4-1.1,10
+	c-9.6,3.6-52.7,1.1-66.9,20s-29.8,79.8-26,91.8C82.9,134.9,31.1,199.8,0.6,114.7z"/>
+<path id="bowl" class="st1" d="M2.2,115.6c0,0,24.2,11.3,65.3,3.3C67.5,119,46.7,106.1,2.2,115.6z"/>
+<ellipse id="handle_holder" class="st2" cx="164" cy="5.9" rx="7.3" ry="2.6"/>
+</svg>
